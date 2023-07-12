@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
-import Logo from '@/public/images/Prime_Black-bg.jpg'
+import Logo from '@/public/images/AIforQA.png'
 
 export default function Header() {
   return (
