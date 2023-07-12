@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
-
 import Logo from '@/public/images/Prime_Black-bg.jpg'
 
 export default function Header() {
@@ -29,6 +28,11 @@ export default function Header() {
               <li>
                 <Link href="/signup" className="btn-sm text-white bg-blue-600 hover:bg-blue-700 ml-3">
                   Sign up
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing" className="btn-sm text-white bg-red-600 hover:bg-blue-700 ml-3">
+                  Pricing
                 </Link>
               </li>
             </ul>
